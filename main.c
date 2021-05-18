@@ -25,7 +25,4 @@ int main(int argc, char **argv) {
   else
     parse_file( "stdin", csystems, edges, polygons, s );
 
-  // free_matrix( edges );
-  // free_matrix( polygons );
-  // free_stack(csystems);
 }
