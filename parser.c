@@ -293,4 +293,8 @@ void parse_file ( char * filename,
 			save_extension(s, line);
 		}//end save
 	}
+
+    free_matrix(edges);
+    free_matrix(polygons);
+    free_stack(csystems);
 }
