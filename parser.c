@@ -290,7 +290,8 @@ void parse_file ( char * filename,
 			fgets(line, sizeof(line), f);
 			*strchr(line, '\n') = 0;
 			//printf("name: %s\n", line);
-			save_extension(s, line);
+			save_ppm_ascii(s, line);
+            printf("saved\n");
 		}//end save
 	}
 
